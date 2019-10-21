@@ -1,0 +1,53 @@
+#mine {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.level {
+    margin-bottom: 10px;
+}
+
+.level button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #02a4ad;
+    color: #ffffff;
+}
+
+.level button.active {
+    background-color:#00abff;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+table {
+    border-spacing: 1px;
+    background: #929196;
+    margin: 0px auto;
+}
+
+td {
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 2px solid;
+    border-color: #ffffff #a1a1a1 #a1a1a1 #ffffff;
+
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.mineTd {
+    background-image: url(./../images/mine.jpg);
+    background-size: cover;
+}
+
+
+
